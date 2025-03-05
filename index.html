@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Naptec</title>
     <link rel="stylesheet" href="style.Css" />
+    <script src="Main.js" defer></script>
   </head>
   <body>
     <header>
+      <div class="responsivity">
+        <button class="side-bar-header-responsive">
+          <img src="./image/icons8-menu-16.png" alt="side-bar" />
+        </button>
+      </div>
       <div class="logo">
         <img src="image/Logo.png" alt="Naptec" />
       </div>
@@ -29,7 +35,7 @@
             /></a>
           </li>
           <li>
-            <a class="header-icon shopping" href=""
+            <a id="bag" class="header-icon shopping" href=""
               ><img src="image/shopping-bag.png" alt="shopping"
             /></a>
           </li>
@@ -100,10 +106,47 @@
       <section class="fourth-section">
         <h1>Naptec Brands</h1>
         <div class="Naptec-brands">
-          <div class="brand"><h2>blooming goods</h2></div>
-          <div class="brand"><h2>servietto</h2></div>
-          <div class="brand"><h2>naperee</h2></div>
-          <div class="brand"><h2>lintext</h2></div>
+          <div class="brand blooming-goods">
+            <img src="./image/blomming-good.png" alt="" />
+            <div class="blooming-goods brand-text">
+              <p>
+                BloominGoods makes hosting effortless with stylish, absorbent,
+                and practical tabletop essentials designed to impress guests
+                with ease.
+              </p>
+              <a href="">visite website</a>
+            </div>
+          </div>
+          <div class="brand servietto">
+            <img src="./image/Servietto.png" alt="" />
+            <div class="servietto brand-text">
+              <p>
+                Luxuries linen-feel disposables for effortless elegance and
+                unforgettable hosting.
+              </p>
+              <a href="">visite website</a>
+            </div>
+          </div>
+          <div class="brand naperee">
+            <img src="./image/naperee.png" alt="" />
+            <div class="naperee brand-text">
+              <p>
+                We are the balance between elegant and practical, form and
+                function
+              </p>
+              <a href="">visite website</a>
+            </div>
+          </div>
+          <div class="brand linetext">
+            <img src="./image/Lintext.png" alt="" />
+            <div class="linetext brand-text">
+              <p>
+                Ultra-soft, disposable linen-feel napkins that blend luxury,
+                elegance, and convenience.
+              </p>
+              <a href="">visite website</a>
+            </div>
+          </div>
         </div>
       </section>
       <section class="fifth-section">
@@ -127,8 +170,15 @@
                 napkins
               </h3>
               <a class="arrow-icon" href=""
-                ><img src="./image/Arrow 1.png" alt=""
-              /></a>
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                  <title>Artboard-34</title>
+                  <g class="Right" data-name="Right">
+                    <polygon
+                      points="17.5 5.999 16.793 6.706 22.086 11.999 1 11.999 1 12.999 22.086 12.999 16.792 18.294 17.499 19.001 24 12.499 17.5 5.999"
+                      style="fill: #232326"
+                    />
+                  </g></svg
+              ></a>
             </div>
           </div>
           <div class="card">
@@ -138,8 +188,15 @@
             <div class="card-title">
               <h3>colored <br />napkins</h3>
               <a class="arrow-icon" href=""
-                ><img src="./image/Arrow 1.png" alt=""
-              /></a>
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                  <title>Artboard-34</title>
+                  <g class="Right" data-name="Right">
+                    <polygon
+                      points="17.5 5.999 16.793 6.706 22.086 11.999 1 11.999 1 12.999 22.086 12.999 16.792 18.294 17.499 19.001 24 12.499 17.5 5.999"
+                      style="fill: #232326"
+                    />
+                  </g></svg
+              ></a>
             </div>
           </div>
           <div class="card">
@@ -152,8 +209,15 @@
                 tablecloths
               </h3>
               <a class="arrow-icon" href=""
-                ><img src="./image/Arrow 1.png" alt=""
-              /></a>
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                  <title>Artboard-34</title>
+                  <g class="Right" data-name="Right">
+                    <polygon
+                      points="17.5 5.999 16.793 6.706 22.086 11.999 1 11.999 1 12.999 22.086 12.999 16.792 18.294 17.499 19.001 24 12.499 17.5 5.999"
+                      style="fill: #232326"
+                    />
+                  </g></svg
+              ></a>
             </div>
           </div>
           <div class="card">
@@ -166,8 +230,15 @@
                 runners
               </h3>
               <a class="arrow-icon" href=""
-                ><img src="./image/Arrow 1.png" alt=""
-              /></a>
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                  <title>Artboard-34</title>
+                  <g class="Right" data-name="Right">
+                    <polygon
+                      points="17.5 5.999 16.793 6.706 22.086 11.999 1 11.999 1 12.999 22.086 12.999 16.792 18.294 17.499 19.001 24 12.499 17.5 5.999"
+                      style="fill: #232326"
+                    />
+                  </g></svg
+              ></a>
             </div>
           </div>
         </div>
@@ -175,6 +246,7 @@
       <section class="sixth-section">
         <img src="./image/section6 bg.png" alt="" />
         <div class="side-cercle-div">
+          <div class="side-cercle-div-border"></div>
           <h1>
             Make your <br />
             Custom Design
@@ -187,6 +259,101 @@
           <a class="side-cercle-div-btn quote-box" href="">get a quote</a>
         </div>
       </section>
+      <section class="seventh-section">
+        <h1>Industries we Serve</h1>
+        <ul>
+          <div class="col-1">
+            <li>Hotels</li>
+            <li>Cruises</li>
+            <li>Campaigns</li>
+          </div>
+          <div class="col-2">
+            <li>Events</li>
+            <li>Buisnesses</li>
+            <li>Conventions and Trade</li>
+          </div>
+          <div class="col-3">
+            <li>weddings</li>
+            <li>Schools</li>
+            <li>Stores</li>
+          </div>
+          <div class="col-4">
+            <li>Party Planners</li>
+            <li>Restaurants and Bars</li>
+          </div>
+        </ul>
+      </section>
+      <section class="eighth-section">
+        <img src="./image/bg 8 sec.png" alt="" />
+        <div class="border"></div>
+      </section>
+      <section class="nineth-section">
+        <h1 class="elegance">Elegance,always</h1>
+      </section>
+      <section class="tenth-section">
+        <div class="tenth-section-text">
+          <h1>
+            How to become <br />
+            a Wholesale Partner
+          </h1>
+          <p>
+            Becoming a Naptech wholesale partner is easy. Simply fill out our
+            <br />
+            wholesale account registration form, and one of our representatives
+            <br />
+            will get in touch with you shortly to discuss your requirements
+            <br />
+            and set up your wholesale account.
+          </p>
+          <a class="tenth-section-btn" href="">become a partner</a>
+        </div>
+        <div class="img-section-side-cercle">
+          <img src="./image/bg 10 sec.png" alt="" />
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="footer-container-flex">
+        <div class="left-footer">
+          <div class="footer-logo">
+            <img src="./image/Logo.png" alt="Logo" />
+            <h1 class="elegance">elegance, always</h1>
+          </div>
+          <div class="contact">
+            <h3>Contact</h3>
+            <h3>845-200-3344</h3>
+            <h3>sales@Naptecpapper.com</h3>
+          </div>
+        </div>
+        <div class="right-footer">
+          <div class="get-email">
+            <h2>Get our news straight to your inbox</h2>
+            <form action="get">
+              <input type="email" placeholder="Enter your email" />
+              <button class="rihgt-footer-btn">subscribe</button>
+            </form>
+          </div>
+          <div class="list-right-footer">
+            <ul>
+              <div class="left-ul list-style-footer">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Customize</a></li>
+              </div>
+              <div class="right-ul list-style-footer">
+                <li><a href="">Get a Quote</a></li>
+                <li><a href="">Catalog Request</a></li>
+                <li><a href="">Support</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-footer">
+        <h6>Copyright © 2024 All right reserved.</h6>
+        <h6>Copyright by NaptecPaper.com</h6>
+      </div>
+    </footer>
   </body>
 </html>
