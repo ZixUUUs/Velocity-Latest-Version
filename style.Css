@@ -424,15 +424,15 @@ nav ul {
   z-index: 1;
 }
 
-.side-cercle-div-border {
+.sixth-section::after {
   position: absolute;
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 699px;
+  height: 484px;
   border: 1px solid white;
-  top: -20px;
-  left: 20px;
-  z-index: -1;
+  top: 17%;
+  left: 7%;
+  z-index: 0;
   border-radius: 0 620px 0 0;
 }
 
@@ -749,6 +749,7 @@ footer {
   header {
     width: 100%;
     height: 10vh;
+    justify-content: space-between;
   }
   .search img {
     margin-top: 0;
@@ -906,34 +907,50 @@ footer {
     font-size: 1.75rem;
   }
   .third-section-text p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .third-section-text h3 {
     font-size: 1rem;
   }
   /*4th section*/
   .fourth-section {
-    height: 80vh;
-    gap: 10%;
+    height: 120vh;
+
     padding-top: 0;
   }
   .Naptec-brands {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12%;
+    margin-left: 12%;
   }
   .fourth-section h1 {
     font-size: 2.25rem;
   }
   .brand {
-    width: 150%;
+    width: 80%;
     height: 80%;
     padding-left: 60px;
     align-self: center;
+    transition: 0.3s ease-in-out;
+  }
+  .brand-text {
+    font-size: 0.9rem;
+    line-height: 1rem;
   }
   .brand img {
     width: 100%;
     height: 100%;
+  }
+
+  .brand:hover ~ .brand {
+    transform: scale(0.3) translateY(100px);
+    opacity: 0.3;
+  }
+
+  .brand:hover ~ .brand ~ .brand {
+    opacity: 0;
   }
   /*5th section*/
   .fifth-section {
@@ -941,30 +958,30 @@ footer {
     align-items: center;
     padding-left: 0px;
   }
+  .section-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0%;
+  }
   .section-header-title {
-    position: relative;
-    padding-bottom: 10%;
-    padding-left: 4%;
+    padding: 0 12% 5% 7%;
   }
   .section-header-title h1 {
-    font-size: 1.75rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     padding-bottom: 10px;
   }
   .section-header-title p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1rem;
     white-space: nowrap;
   }
   .section-header-btn {
-    position: absolute;
-    top: 326%;
-    left: 39%;
-    width: 40%;
-    height: 5%;
-    padding: 3%;
-    margin-left: 20%;
-    margin-bottom: 7%;
+    width: 50%;
+    height: 50%;
+    padding: 2%;
+    margin-right: 2%;
   }
 
   .section-header-btn a {
@@ -976,14 +993,19 @@ footer {
     justify-content: space-evenly;
   }
   .card-image {
-    width: 100%;
+    width: 98%;
+    align-self: center;
   }
-  .card-title {
-    justify-content: space-evenly;
-  }
+
   /*6th section*/
   .sixth-section {
     height: 80vh;
+  }
+  .sixth-section::after {
+    width: 80%;
+    height: 50%;
+    top: 19%;
+    left: 12%;
   }
   .sixth-section img {
     width: 100%;
@@ -993,8 +1015,8 @@ footer {
     width: 80%;
     height: 50%;
     padding: 10%;
-    padding-left: 12%;
-    left: 12px;
+    padding-left: 8%;
+    left: 8%;
   }
   .side-cercle-div h1 {
     font-weight: 500;
@@ -1025,11 +1047,12 @@ footer {
     line-height: 2.5rem;
     color: #ffffff;
     align-self: flex-start;
+    margin-left: -5px;
   }
   .seventh-section ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 12%;
+    column-gap: 30%;
   }
 
   .col-1,
@@ -1119,33 +1142,34 @@ footer {
     border-radius: 0 0 0 0;
   }
   .tenth-section-text {
-    padding: 0;
     color: #022d33;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    padding: 60%;
+    padding: 40% 0 0 0;
   }
+
   .tenth-section-text h1 {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 2.5rem;
   }
   .tenth-section-text p {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: 300;
-    line-height: 1rem;
+    line-height: 1.5rem;
   }
-  .tenth-section-btn a {
-    width: 10%px;
-    height: 10%px;
+  .tenth-section-text a {
+    width: 80%;
+    height: 20%;
     border-radius: 100px;
     border: 1px solid;
     color: #022d33;
     text-align: center;
-    padding: 10%px;
+    padding: 5%;
     text-transform: uppercase;
+    margin-left: 10%;
   }
   /*footer*/
   footer {
@@ -1161,6 +1185,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    gap: 18%;
   }
   .footer-footer {
     display: flex;
@@ -1182,14 +1207,15 @@ footer {
   .left-footer {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 0;
-    padding-left: 0;
+    padding-left: 14px;
   }
   .footer-logo {
-    width: 15%;
+    width: 20%;
     height: 30%;
-    gap: 10px;
+    gap: 90%;
+    margin-right: 15%;
   }
   .footer-logo h1 {
     font-size: 1rem;
@@ -1221,7 +1247,7 @@ footer {
   .get-email {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 30px;
   }
   .get-email h2 {
     font-size: 1.5rem;
@@ -1231,18 +1257,18 @@ footer {
   }
   .get-email form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 12px;
   }
   .get-email form input {
     background-color: #39626952;
-    width: 55%;
+    width: 100%;
 
-    border-radius: 100px;
     border: 1px solid #396269;
     padding: 24px;
   }
   .get-email form input::placeholder {
+    text-align: center;
     color: #ffffff;
   }
   .get-email form button {
@@ -1251,19 +1277,17 @@ footer {
     text-align: center;
     color: #022d33;
     border: 0;
-    width: 44%;
+    width: 100%;
     border-radius: 100px;
     background-color: #ded1b3;
   }
   .list-right-footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 16px;
+    justify-content: space-between;
   }
   .list-right-footer ul li a {
     position: relative;
-    padding: 0 15px;
   }
   .list-right-footer ul li a::after {
     content: "";
@@ -1274,6 +1298,9 @@ footer {
     left: 0;
     top: 20px;
     transition: 0.3s;
+  }
+  .right-ul {
+    padding: 0;
   }
   .list-right-footer ul li a:hover:after {
     width: 100%;
@@ -1287,7 +1314,7 @@ footer {
   .list-style-footer li {
     font-size: 1.125rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 0.5rem;
     color: #ffffff;
   }
 }
