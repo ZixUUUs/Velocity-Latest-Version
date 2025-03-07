@@ -7,6 +7,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  outline: 1px solid red;
 }
 section {
   width: 80%;
@@ -81,8 +82,8 @@ nav ul {
 }
 .header-box {
   text-align: center;
-  width: 156px;
-  height: 40px;
+  max-width: 156px;
+  max-height: 40px;
   padding: 10px 28px 10px 28px;
   transition: 0.3s ease;
 }
@@ -135,7 +136,7 @@ nav ul {
 }
 .home-box {
   align-self: center;
-  width: 250px;
+  max-width: 250px;
   height: 56px;
   text-align: center;
   transition: 0.3s;
@@ -254,8 +255,8 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 252px;
-  height: 252px;
+  max-width: 252px;
+  max-height: 252px;
   border-radius: 170px;
 }
 .brand img {
@@ -327,8 +328,8 @@ nav ul {
   color: #ffffff;
 }
 .section-header-btn {
-  width: 199px;
-  height: 48px;
+  max-width: 199px;
+  max-height: 48px;
   text-align: center;
   padding: 15px;
   align-self: center;
@@ -415,8 +416,8 @@ nav ul {
   padding: 95px;
   gap: 32px;
   position: relative;
-  width: 699px;
-  height: 484px;
+  max-width: 699px;
+  max-height: 484px;
   top: -80%;
   left: 80px;
   border-radius: 0 620px 0 0;
@@ -427,8 +428,8 @@ nav ul {
 .sixth-section::after {
   position: absolute;
   content: "";
-  width: 699px;
-  height: 484px;
+  max-width: 699px;
+  max-height: 484px;
   border: 1px solid white;
   top: 17%;
   left: 7%;
@@ -449,8 +450,8 @@ nav ul {
   color: #ffffff;
 }
 .side-cercle-div a {
-  width: 201px;
-  height: 56px;
+  max-width: 201px;
+  max-height: 56px;
   padding: 15px;
   text-align: center;
   transition: 0.3s;
@@ -741,7 +742,7 @@ footer {
   color: #ffffff;
 }
 /*RESPONSIVITY*/
-@media screen and (min-width: 320px) and (max-width: 720px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
   section {
     width: 100%;
   }
@@ -850,27 +851,25 @@ footer {
     left: 0;
   }
   .home-text h1 {
-    font-size: 3.75rem;
+    font-size: 3rem;
     line-height: 3.75rem;
     text-align: center;
   }
   .home-text p {
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 1.5rem;
   }
   .home-box {
-    width: 45%;
-    height: 50px;
+    width: 100%;
   }
+
   /*2nd section*/
   .second-section {
-    height: 40vh;
+    height: 30vh;
   }
   .second-section ul {
-    padding: 1%;
     display: grid;
     grid-template-columns: 40% 60%;
-    gap: 1%;
   }
   .second-section ul li {
     justify-content: flex-start;
@@ -914,8 +913,7 @@ footer {
   }
   /*4th section*/
   .fourth-section {
-    height: 120vh;
-
+    height: 80vh;
     padding-top: 0;
   }
   .Naptec-brands {
@@ -959,18 +957,21 @@ footer {
     padding-left: 0px;
   }
   .section-header {
-    display: flex;
-    flex-direction: row;
+    position: relative;
     justify-content: space-evenly;
-    gap: 0%;
+    gap: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
   }
   .section-header-title {
-    padding: 0 12% 5% 7%;
+    padding-left: 8%;
   }
   .section-header-title h1 {
     font-size: 1.25rem;
     line-height: 1.5rem;
     padding-bottom: 10px;
+    text-align: center;
   }
   .section-header-title p {
     font-size: 0.9rem;
@@ -978,10 +979,7 @@ footer {
     white-space: nowrap;
   }
   .section-header-btn {
-    width: 50%;
-    height: 50%;
-    padding: 2%;
-    margin-right: 2%;
+    display: none;
   }
 
   .section-header-btn a {
@@ -1003,7 +1001,7 @@ footer {
   }
   .sixth-section::after {
     width: 80%;
-    height: 50%;
+    height: 45%;
     top: 19%;
     left: 12%;
   }
@@ -1012,10 +1010,10 @@ footer {
     height: 100%;
   }
   .side-cercle-div {
+    gap: 10px;
     width: 80%;
-    height: 50%;
-    padding: 10%;
-    padding-left: 8%;
+    padding: 12%;
+    padding-left: 4%;
     left: 8%;
   }
   .side-cercle-div h1 {
@@ -1026,13 +1024,11 @@ footer {
   }
   .side-cercle-div p {
     font-weight: 300;
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
     color: #ffffff;
   }
   .side-cercle-div a {
-    width: 60%;
-    height: 19%;
     font-size: 12px;
     padding: 8%;
   }
