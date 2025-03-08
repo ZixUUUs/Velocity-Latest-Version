@@ -29,7 +29,10 @@ li {
   text-transform: uppercase;
   white-space: nowrap;
 }
-
+.elegance {
+  max-width: 236px;
+  height: 48px;
+}
 /*HEADER*/
 header {
   display: flex;
@@ -136,6 +139,7 @@ nav ul {
 }
 .home-box {
   align-self: center;
+  width: 250px;
   max-width: 250px;
   height: 56px;
   text-align: center;
@@ -203,7 +207,7 @@ nav ul {
   align-items: center;
   gap: 44px;
   color: #ffffff;
-  padding: 150px;
+  padding: 120px;
 }
 .third-section-text h1 {
   align-self: flex-start;
@@ -212,12 +216,8 @@ nav ul {
   line-height: 4.5rem;
   margin-left: 10px;
 }
-.third-section-text h3 {
+.third-section-text .elegance {
   align-self: flex-end;
-  font-size: 2.75rem;
-  font-weight: 500;
-  line-height: 4.5rem;
-  margin-right: 10px;
 }
 .third-section-text p {
   font-size: 1.375rem;
@@ -236,17 +236,21 @@ nav ul {
   padding-top: 50px;
 }
 .fourth-section h1 {
+  position: relative;
   font-size: 3.25rem;
   font-weight: 500;
   line-height: 3.125;
   color: #073b43;
+  animation: none;
+  z-index: 1;
 }
 .Naptec-brands {
-  width: 80%;
+  position: relative;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 115px;
+  margin-left: 2%;
   padding-bottom: 50px;
   gap: 100px;
 }
@@ -260,12 +264,15 @@ nav ul {
   border-radius: 170px;
 }
 .brand img {
+  object-fit: contain;
   transition: 0.4s;
 }
 
 .brand-text {
-  display: none;
-  animation: fadeIn 0.5s ease-out forwards;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transform: translateY(-40px);
 }
 .brand-text p {
   line-height: 1.75;
@@ -275,7 +282,7 @@ nav ul {
   text-decoration: underline;
 }
 .brand:hover img {
-  transform: scale(0.6) translateY(-100px);
+  transform: scale(0.6) translateY(-80px);
 }
 .brand:hover .brand-text {
   display: flex;
@@ -287,6 +294,9 @@ nav ul {
   text-align: center;
   font-size: 1.125rem;
   font-weight: 300;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-60px);
 }
 @keyframes fadeIn {
   from {
@@ -394,6 +404,7 @@ nav ul {
 }
 .card:hover .arrow-icon svg {
   transform: rotate(-90deg);
+  color: #073b43;
 }
 /*SIXTH SECTION*/
 .sixth-section {
@@ -532,8 +543,8 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
 }
-.nineth-section h1 {
-  padding-right: 110px;
+.nineth-section .elegance {
+  margin-right: 120px;
   color: #ffffff;
 }
 /*TENTH SECTION*/
@@ -591,14 +602,19 @@ nav ul {
   line-height: 2rem;
 }
 .tenth-section-text a {
-  width: 263px;
-  height: 56px;
+  max-width: 263px;
+  max-height: 56px;
   border-radius: 100px;
   border: 1px solid;
   color: #022d33;
   text-align: center;
   padding: 18px;
   text-transform: uppercase;
+  transition: 0.3s;
+}
+.tenth-section-text a:hover {
+  background-color: #073b43;
+  color: #ffffff;
 }
 /*FOOTER*/
 footer {
@@ -913,42 +929,28 @@ footer {
   }
   /*4th section*/
   .fourth-section {
-    height: 80vh;
+    height: 60vh;
     padding-top: 0;
   }
   .Naptec-brands {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 12%;
-    margin-left: 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 16%;
+    padding: 0;
   }
   .fourth-section h1 {
     font-size: 2.25rem;
   }
   .brand {
-    width: 80%;
-    height: 80%;
-    padding-left: 60px;
-    align-self: center;
-    transition: 0.3s ease-in-out;
+    place-self: center;
   }
   .brand-text {
-    font-size: 0.9rem;
-    line-height: 1rem;
+    display: none;
   }
   .brand img {
     width: 100%;
     height: 100%;
-  }
-
-  .brand:hover ~ .brand {
-    transform: scale(0.3) translateY(100px);
-    opacity: 0.3;
-  }
-
-  .brand:hover ~ .brand ~ .brand {
-    opacity: 0;
   }
   /*5th section*/
   .fifth-section {
@@ -971,7 +973,7 @@ footer {
     font-size: 1.25rem;
     line-height: 1.5rem;
     padding-bottom: 10px;
-    text-align: center;
+    white-space: wrap;
   }
   .section-header-title p {
     font-size: 0.9rem;
