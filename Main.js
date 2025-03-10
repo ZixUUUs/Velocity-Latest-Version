@@ -18,12 +18,14 @@ function pushElement() {
 
   closeBtn.addEventListener("click", () => {
     closeSideBar();
+    sideBarBtn.style.display = "flex";
     closeBtn.remove();
   });
 }
 
 sideBarBtn.addEventListener("click", () => {
   pushElement();
+  sideBarBtn.style.display = "none";
 });
 
 function closeSideBar() {
