@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Moon+Dance&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 *,
 *:before,
 *:after {
@@ -351,6 +350,7 @@ nav ul {
   color: #073b43;
 }
 .card {
+  max-width: 352px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -364,7 +364,7 @@ nav ul {
   padding-left: 32px;
 }
 .card-image {
-  width: 336px;
+  max-width: 336px;
   height: 432px;
 }
 .card-image img {
@@ -765,7 +765,7 @@ footer {
   header {
     width: 100%;
     height: 10vh;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .search img {
     margin-top: 0;
@@ -799,6 +799,7 @@ footer {
     gap: 70px;
     animation: start 0.5s ease-in-out forwards;
     z-index: 9999;
+    border-top: 2px solid #ffffff;
   }
   @keyframes start {
     from {
@@ -881,6 +882,7 @@ footer {
   /*2nd section*/
   .second-section {
     height: 30vh;
+    align-items: center;
   }
   .second-section ul {
     display: grid;
@@ -1321,13 +1323,23 @@ footer {
     color: #ffffff;
   }
 }
-@media screen and (min-width: 400px) and (max-width: 600px) {
-  * {
-    font-size: clamp(1rem, 2vw, 3.25rem);
+@media screen and (min-width: 400px) {
+  .nav-out ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
+  }
+  .nav-out .shopping {
+    display: inline-block;
+  }
+  .nav-out .search {
+    display: inline-block;
+    margin-top: 7px;
   }
   .sixth-section::after {
-    width: 77%;
-    height: 49%;
+    width: 80%;
+    height: 47%;
     top: 19%;
     left: 12%;
   }
@@ -1348,8 +1360,307 @@ footer {
   .side-cercle-div p {
     font-size: 1rem;
   }
+  .tenth-section-text a {
+    margin-left: 16%;
+  }
 }
+@media screen and (min-width: 500px) {
+  .home-text h1 {
+    font-size: 4rem;
+  }
+  .home-text p {
+    font-size: 1.5rem;
+  }
+  .third-section {
+    height: 80vh;
+  }
+  .third-section-text {
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 0;
+  }
+  .third-section-text h1 {
+    font-size: 2.5rem;
+  }
+  .third-section-text p {
+    font-size: 1.125rem;
+  }
+  .fifth-section .section-header {
+    justify-content: space-between;
+    gap: 62px;
+  }
+  .section-header-title {
+    padding-left: 0;
+    text-align: left;
+  }
+  .section-header-title h1 {
+    text-align: left;
+  }
+  .section-header-btn {
+    margin-right: -32px;
+    display: inline;
+  }
+  .sixth-section::after {
+    width: 78%;
+    height: 45%;
+    top: 19%;
+    left: 12%;
+  }
+  .tenth-section-text {
+    padding: 30% 0 0 0;
+  }
+  .get-email h2 {
+    font-size: xx-large;
+  }
+  .get-email form {
+    max-width: 100%;
+  }
+  .list-right-footer ul {
+    justify-content: space-between;
+    gap: 200px;
+  }
+  .left-footer {
+    justify-content: space-between;
+    gap: 145px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .side-bare-div {
+    top: 10%;
+  }
+  .nav-in ul {
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-top: 3rem;
+  }
+  .first-section {
+    height: 85vh;
+  }
+  .second-section ul {
+    gap: 0;
+    column-gap: 4rem;
+    row-gap: 3rem;
+    padding: 4.8rem 1.6rem;
+  }
+  .third-section-text h1 {
+    margin-left: 5%;
+  }
+  .fourth-section {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 0;
+  }
+  .fourth-section h1 {
+    padding: 0;
+  }
 
+  .brand img {
+    max-width: 180px;
+  }
+  .fifth-section .section-header {
+    justify-content: space-between;
+    gap: 136px;
+  }
+  .section-header-title h1 {
+    font-size: xx-large;
+  }
+  .section-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    max-width: 254px;
+  }
+  .sixth-section::after {
+    width: 78%;
+    height: 50%;
+    top: 19%;
+    left: 12%;
+  }
+  .seventh-section h1 {
+    margin-left: -14%;
+    padding: 0;
+    font-size: xx-large;
+  }
+  .seventh-section ul {
+    margin-left: -35%;
+    column-gap: 40%;
+  }
+  .seventh-section ul li {
+    font-size: larger;
+  }
+  .nineth-section .elegance {
+    margin-right: 3%;
+  }
+  .img-section-side-cercle {
+    top: -10%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+  }
+  .img-section-side-cercle::after {
+    width: 103%;
+  }
+  .tenth-section-text {
+    text-align: left;
+    padding: 25% 0 0 0;
+    margin-left: -10%;
+  }
+  .tenth-section-text h1 {
+    font-size: -webkit-xxx-large;
+  }
+  .tenth-section-text p {
+    font-size: larger;
+  }
+  .tenth-section-text a {
+    padding: 4%;
+    margin-left: 0;
+  }
+}
+@media (min-width: 700px) {
+  .second-section ul li {
+    white-space: nowrap;
+  }
+  .third-section-text .elegance {
+    align-self: flex-end;
+    margin-right: 5%;
+  }
+  .sixth-section::after {
+    width: 78%;
+    height: 57%;
+  }
+  .side-cercle-div h1 {
+    font-size: xx-large;
+    line-height: 2.125rem;
+  }
+  .side-cercle-div p {
+    font-size: larger;
+  }
+  .side-cercle-div a {
+    padding: 1.2rem 3rem;
+    font-size: 1rem;
+  }
+  .left-footer {
+    justify-content: space-between;
+    gap: 160px;
+  }
+  .img-section-side-cercle::after {
+    width: 102%;
+  }
+}
+@media (min-width: 800px) {
+  .nav-out .header-box {
+    display: inline-block;
+    font-size: 0.9rem;
+  }
+  .first-section h1 {
+    font-size: 6rem;
+  }
+  .home-text h1 {
+    line-height: 6rem;
+  }
+  .second-section ul {
+    column-gap: 7rem;
+  }
+  .card {
+    max-width: 400px;
+  }
+  .card img {
+    max-width: 374px;
+  }
+  .side-cercle-div {
+    width: 70%;
+  }
+  .section-header {
+    padding: 2rem;
+  }
+  .section-header-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .section-header-title h1 {
+    font-size: 3rem;
+  }
+  .section-header-title p {
+    font-size: 1.25rem;
+  }
+  .fifth-section .section-header {
+    justify-content: space-between;
+    gap: 166px;
+  }
+  .sixth-section::after {
+    width: 68%;
+    height: 61%;
+  }
+  .seventh-section ul {
+    margin-left: -60%;
+  }
+  .seventh-section ul li {
+    font-size: 1.5rem;
+  }
+  .seventh-section h1 {
+    margin-left: -15%;
+    font-size: -webkit-xxx-large;
+  }
+  .tenth-section-text {
+    text-align: left;
+    padding: 25% 0 0 0;
+    margin-left: -25%;
+  }
+}
+@media (min-width: 900px) {
+  .home-text {
+    gap: 2rem;
+  }
+  .second-section ul {
+    column-gap: 10rem;
+  }
+  .third-section-text h1 {
+    margin-left: 12%;
+    font-size: 3rem;
+  }
+  .third-section-text .elegance {
+    margin-right: 16%;
+  }
+  .sixth-section::after {
+    width: 63%;
+    height: 70%;
+  }
+  .side-cercle-div {
+    width: 65%;
+    gap: 3rem;
+  }
+  .side-cercle-div p {
+    line-height: 2rem;
+  }
+  .tenth-section-text {
+    text-align: left;
+    padding: 20% 0 0 0;
+    margin-left: -35%;
+  }
+  .footer-container-flex {
+    align-items: flex-start;
+    justify-content: baseline;
+  }
+  .get-email h2 {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+  .get-email form {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .get-email form input {
+    width: 120%;
+  }
+  .left-footer {
+    margin-left: 0;
+  }
+}
 /*Tablette*/
 @media (max-width: 1024px) {
 }
