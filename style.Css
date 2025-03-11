@@ -950,9 +950,18 @@ footer {
   .brand-text {
     display: none;
   }
+  .brand:hover {
+    display: none;
+  }
   .brand img {
     width: 100%;
     height: 100%;
+  }
+  .brand:hover img {
+    display: none;
+  }
+  .brand:hover .brand-text {
+    display: none;
   }
   /*5th section*/
   .fifth-section {
@@ -1289,6 +1298,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 62px;
   }
   .list-right-footer ul li a {
@@ -1424,7 +1434,7 @@ footer {
     gap: 145px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 992px) {
+@media screen and (min-width: 600px) {
   .side-bare-div {
     top: 10%;
   }
@@ -1529,7 +1539,7 @@ footer {
   }
   .sixth-section::after {
     width: 78%;
-    height: 57%;
+    height: 60%;
   }
   .side-cercle-div h1 {
     font-size: xx-large;
@@ -1636,6 +1646,10 @@ footer {
   .side-cercle-div p {
     line-height: 2rem;
   }
+  .nineth-section .elegance {
+    margin-right: 3%;
+    margin-bottom: 42px;
+  }
   .tenth-section-text {
     text-align: left;
     padding: 20% 0 0 0;
@@ -1645,8 +1659,11 @@ footer {
     align-items: flex-start;
     justify-content: baseline;
   }
+  .get-email {
+    margin-left: 2%;
+  }
   .get-email h2 {
-    font-size: 3rem;
+    font-size: 2.75rem;
     line-height: 2rem;
   }
   .get-email form {
@@ -1657,12 +1674,176 @@ footer {
   .get-email form input {
     width: 120%;
   }
+  .right-footer {
+    align-items: start;
+  }
+  .list-right-footer ul {
+    gap: 600px;
+  }
   .left-footer {
-    margin-left: 0;
+    margin-left: 111px;
+    gap: 500px;
+  }
+  .footer-footer {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 /*Tablette*/
-@media (max-width: 1024px) {
+@media (min-width: 990px) {
+  /*Header*/
+  header {
+    width: 100%;
+    height: 10vh;
+    justify-content: space-evenly;
+  }
+  .search img {
+    margin-top: 0;
+  }
+  .responsivity {
+    display: none;
+  }
+  .responsivity button {
+    display: none;
+  }
+  .responsivity button img {
+    display: none;
+  }
+  .logo {
+    align-self: center;
+  }
+
+  .side-bare-div img {
+    display: none;
+  }
+  .close-btn {
+    position: absolute;
+    left: 88.9%;
+    top: 1%;
+    background: none;
+    border: none;
+  }
+  .close-btn svg {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+  }
+  .nav-out ul {
+    gap: 0px;
+  }
+
+  .nav-in,
+  .nav-out .quote-box {
+    display: flex;
+  }
+  .nav-in ul {
+    flex-direction: row;
+    padding-left: 0;
+    padding-top: 0;
+    flex-wrap: wrap;
+    gap: 12%;
+  }
+  /*header*/
+  .home-text h1 {
+    font-size: 7rem;
+    line-height: 6rem;
+  }
+  .home-text p {
+    font-size: 2rem;
+  }
+  .second-section ul {
+    column-gap: 15rem;
+  }
+  .second-section ul li h3 {
+    font-size: 1.125rem;
+  }
+  .third-section-text h1 {
+    margin-left: 15%;
+    font-size: 3rem;
+  }
+  .third-section-text p {
+    font-size: 1.35rem;
+  }
+  .fifth-section .section-header {
+    justify-content: space-between;
+    gap: 248px;
+  }
+  .card {
+    max-width: 500px;
+  }
+  .card img {
+    max-width: 469px;
+  }
+  .side-cercle-div {
+    width: 60%;
+    gap: 3rem;
+  }
+  .sixth-section::after {
+    width: 59%;
+    height: 72%;
+    left: 10%;
+  }
+  .tenth-section-text p {
+    font-size: 1.35rem;
+  }
+  .list-right-footer ul {
+    gap: 700px;
+  }
+  .left-footer {
+    margin-left: 0;
+    gap: 460px;
+    padding: 0;
+    padding-left: 113px;
+  }
+  .footer-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+  }
+}
+@media (min-width: 1090px) {
+  .nav-in ul li a {
+    font-size: 1.125rem;
+  }
+  .footer-logo {
+    margin-right: 0;
+  }
+  .left-footer {
+    margin-left: 0;
+    gap: 637px;
+    padding: 0;
+    padding-left: 18px;
+  }
+}
+@media (min-width: 1190px) {
+  .section-cards {
+    justify-content: space-evenly;
+    margin-left: -110px;
+  }
+  .fifth-section .section-header {
+    gap: 530px;
+  }
+  .card-title {
+    margin-left: 100px;
+  }
+  .card {
+    width: 500px;
+  }
+  .card img {
+    width: 500px;
+  }
+  .sixth-section::after {
+    width: 58%;
+  }
+}
+@media (min-width: 1204px) {
+  .nav-in ul {
+    flex-direction: row;
+    padding-left: 0;
+    padding-top: 0;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
 }
 /*Laptop*/
 @media (max-width: 1440px) {
