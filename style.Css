@@ -2087,7 +2087,7 @@ footer {
     color: #073b43;
   }
   .card {
-    max-width: 550px;
+    max-width: 336px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -2097,8 +2097,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
     gap: 20px;
-    padding-left: 160px;
+    padding-left: 0;
+    margin-left: 10px;
   }
   .card-image {
     max-width: 550px;
