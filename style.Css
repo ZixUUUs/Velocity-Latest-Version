@@ -884,13 +884,14 @@ footer {
 
   /*2nd section*/
   .second-section {
-    height: 30vh;
-    align-items: center;
+    display: block;
+    height: 60vh;
   }
   .second-section ul {
     display: grid;
     grid-template-columns: 30% 60%;
     gap: 15px;
+    padding-top: 36px;
   }
   .second-section ul li {
     justify-content: flex-start;
@@ -921,7 +922,7 @@ footer {
     align-items: center;
     gap: 10px;
     color: #ffffff;
-    padding: 20px;
+    padding: 14px;
   }
   .third-section-text h1 {
     font-size: 1.75rem;
@@ -943,6 +944,7 @@ footer {
     align-items: center;
     gap: 16%;
     padding: 0;
+    padding-bottom: 50px;
   }
   .fourth-section h1 {
     font-size: 2.25rem;
@@ -1021,7 +1023,7 @@ footer {
   }
   .sixth-section::after {
     width: 80%;
-    height: 45%;
+    height: 60%;
     top: 19%;
     left: 12%;
   }
@@ -1054,7 +1056,7 @@ footer {
   }
   /*7th section*/
   .seventh-section {
-    height: 50vh;
+    height: 60vh;
     padding-left: 16%;
   }
   .seventh-section h1 {
@@ -1109,7 +1111,7 @@ footer {
 
   /*9th section*/
   .nineth-section {
-    height: 20vh;
+    height: 30vh;
     background-color: #073b43;
     display: flex;
     flex-direction: row;
@@ -1127,7 +1129,7 @@ footer {
     position: relative;
     background-color: #ded1b3;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -1187,11 +1189,11 @@ footer {
     text-align: center;
     padding: 5%;
     text-transform: uppercase;
-    margin-left: 10%;
+    margin-left: 14%;
   }
   /*footer*/
   footer {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color: #073b43;
     display: flex;
@@ -1222,7 +1224,7 @@ footer {
     align-self: center;
     text-align: center;
     white-space: nowrap;
-    padding-top: 40px;
+    padding-top: 20px;
   }
   .left-footer {
     display: flex;
@@ -1339,7 +1341,49 @@ footer {
     line-height: 0.5rem;
     color: #ffffff;
   }
+  /*height fixing side-cercle after*/
+  @media screen and (min-height: 600px) and (max-height: 650px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 60%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 650px) and (max-height: 700px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 53%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 700px) and (max-height: 750px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 49%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 750px) and (max-height: 800px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 47%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 800px) and (max-height: 850px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 44%;
+      top: 19%;
+      left: 12%;
+    }
+  }
 }
+
 @media screen and (min-width: 400px) and (max-width: 1440px) {
   .nav-out ul {
     display: flex;
@@ -1379,6 +1423,47 @@ footer {
   }
   .tenth-section-text a {
     margin-left: 16%;
+  }
+  /*height fixing side-cercle after*/
+  @media screen and (min-height: 600px) and (max-height: 650px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 60%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 650px) and (max-height: 700px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 53%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 700px) and (max-height: 750px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 49%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 750px) and (max-height: 800px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 47%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 800px) and (max-height: 850px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 44%;
+      top: 19%;
+      left: 12%;
+    }
   }
 }
 @media screen and (min-width: 500px) and (max-width: 1440px) {
@@ -1439,6 +1524,47 @@ footer {
   .left-footer {
     justify-content: space-between;
     gap: 145px;
+  }
+  /*height fixing side-cercle after*/
+  @media screen and (min-height: 600px) and (max-height: 650px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 60%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 650px) and (max-height: 700px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 53%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 700px) and (max-height: 750px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 49%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 750px) and (max-height: 800px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 47%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 800px) and (max-height: 850px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 44%;
+      top: 19%;
+      left: 12%;
+    }
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1440px) {
@@ -1535,6 +1661,47 @@ footer {
     padding: 4%;
     margin-left: 0;
   }
+  /*height fixing side-cercle after*/
+  @media screen and (min-height: 600px) and (max-height: 650px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 60%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 650px) and (max-height: 700px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 53%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 700px) and (max-height: 750px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 49%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 750px) and (max-height: 800px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 47%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 800px) and (max-height: 850px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 44%;
+      top: 19%;
+      left: 12%;
+    }
+  }
 }
 @media (min-width: 700px) and (max-width: 1440px) {
   .second-section ul li {
@@ -1565,6 +1732,47 @@ footer {
   }
   .img-section-side-cercle::after {
     width: 102%;
+  }
+  /*height fixing side-cercle after*/
+  @media screen and (min-height: 600px) and (max-height: 650px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 60%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 650px) and (max-height: 700px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 53%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 700px) and (max-height: 750px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 49%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 750px) and (max-height: 800px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 47%;
+      top: 19%;
+      left: 12%;
+    }
+  }
+  @media screen and (min-height: 800px) and (max-height: 850px) {
+    .sixth-section::after {
+      width: 78%;
+      height: 44%;
+      top: 19%;
+      left: 12%;
+    }
   }
 }
 @media (min-width: 800px) and (max-width: 1440px) {
@@ -2934,4 +3142,6 @@ footer {
   .third-section-text {
     padding: 100px;
   }
+}
+@media screen and (min-width: 320px) and (max-width: 1440px) {
 }
