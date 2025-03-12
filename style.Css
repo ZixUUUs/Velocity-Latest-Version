@@ -1593,6 +1593,9 @@ footer {
   .first-section {
     height: 85vh;
   }
+  .second-section {
+    height: 45vh;
+  }
   .second-section ul {
     gap: 0;
     column-gap: 4rem;
