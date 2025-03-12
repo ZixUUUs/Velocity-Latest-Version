@@ -1642,6 +1642,9 @@ footer {
   .third-section-text .elegance {
     margin-right: 16%;
   }
+  .fourth-section {
+    height: 40vh;
+  }
   .sixth-section::after {
     width: 63%;
     height: 70%;
@@ -1687,8 +1690,11 @@ footer {
   .list-right-footer ul {
     gap: 600px;
   }
+  .footer-logo {
+    margin-right: 0;
+  }
   .left-footer {
-    margin-left: 111px;
+    margin-left: 0;
     gap: 500px;
   }
   .footer-footer {
@@ -1696,7 +1702,6 @@ footer {
     justify-content: space-between;
   }
 }
-/*Tablette*/
 @media (min-width: 990px) and (max-width: 1440px) {
   /*Header*/
   header {
@@ -2127,7 +2132,7 @@ footer {
     line-height: 2.125rem;
   }
   .sixth-section::after {
-    width: 47%;
+    width: 57%;
   }
   /*section 7*/
   .seventh-section {
@@ -2249,7 +2254,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 550px;
+    gap: 0;
   }
   .footer-footer {
     display: flex;
