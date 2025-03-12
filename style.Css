@@ -1385,6 +1385,9 @@ footer {
 }
 
 @media screen and (min-width: 400px) and (max-width: 1440px) {
+  .second-section {
+    height: 30vh;
+  }
   .nav-out ul {
     display: flex;
     flex-direction: row;
@@ -1480,6 +1483,9 @@ footer {
   }
   .home-text p {
     font-size: 1.5rem;
+  }
+  .second-section {
+    height: 30vh;
   }
   .third-section {
     height: 80vh;
