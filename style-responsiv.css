@@ -1,0 +1,1245 @@
+/*RESPONSIVITY*/
+@media screen and (min-width: 1600px) and (max-width: 1900px) {
+  .sixth-section::after {
+    top: 120px;
+  }
+}
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
+  .sixth-section::after {
+    top: 110px;
+  }
+  .Naptec-brands {
+    margin-left: 0%;
+    padding-bottom: 50px;
+    gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
+  .Naptec-brands {
+    margin-left: 0;
+    padding-bottom: 50px;
+    gap: 0px;
+  }
+  .sixth-section::after {
+    top: 110px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  section {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1391px) and (max-width: 1440px) {
+  .sixth-section::after {
+    top: 110px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1391px) {
+  .Naptec-brands {
+    margin-left: 0;
+    padding-bottom: 50px;
+    gap: 0px;
+  }
+  .sixth-section::after {
+    top: 110px;
+  }
+  .seventh-section ul {
+    column-gap: 165px;
+  }
+  .tenth-section-text {
+    padding: 100px;
+  }
+  .left-footer {
+    padding-left: 100px;
+  }
+  .right-footer {
+    padding-right: 100px;
+  }
+  .footer-footer {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1205px) and (max-width: 1300px) {
+  .third-section-text {
+    padding: 100px;
+  }
+  .Naptec-brands {
+    padding: 0;
+  }
+  .brand img {
+    width: 98%;
+    height: 98%;
+  }
+  .fifth-section {
+    padding: 20px;
+  }
+  .side-cercle-div {
+    left: 50px;
+  }
+  .sixth-section::after {
+    top: 120px;
+    left: 75px;
+  }
+  .seventh-section h1 {
+    margin-left: -40px;
+  }
+  .seventh-section ul {
+    column-gap: 145px;
+  }
+  .tenth-section-text {
+    padding-right: 100px;
+  }
+  .right-footer {
+    padding-right: 20px;
+  }
+  .left-footer {
+    padding-left: 80px;
+  }
+  .footer-footer {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1150px) and (max-width: 1205px) {
+  .nav-in ul {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .third-section-text {
+    padding: 80px;
+  }
+  .Naptec-brands {
+    padding: 0;
+    margin: 0;
+  }
+  .brand img {
+    width: 90%;
+    height: 90%;
+  }
+  /*//card*/
+  .fifth-section {
+    height: 150vh;
+    padding: 20px;
+  }
+  .section-header {
+    padding-left: 90px;
+  }
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 32px;
+  }
+  .card {
+    max-width: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+  }
+  .card-image {
+    max-width: 100%;
+    width: 100%;
+    height: 432px;
+  }
+  /*card//*/
+  .side-cercle-div {
+    left: 50px;
+  }
+  .sixth-section::after {
+    top: 115px;
+    left: 70px;
+  }
+  .seventh-section h1 {
+    margin-left: -40px;
+  }
+  .seventh-section ul {
+    column-gap: 145px;
+  }
+  .tenth-section-text {
+    padding-right: 50px;
+  }
+  .img-section-side-cercle img {
+    width: 90%;
+    height: 90%;
+  }
+  .img-section-side-cercle::after {
+    width: 90%;
+    height: 90%;
+  }
+  .right-footer {
+    padding-right: 20px;
+  }
+  .left-footer {
+    padding-left: 60px;
+  }
+  .footer-footer {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+  .nav-in ul {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .third-section-text {
+    padding: 80px;
+  }
+  .Naptec-brands {
+    padding: 0;
+    margin: 0;
+  }
+  .brand img {
+    width: 90%;
+    height: 90%;
+  }
+  /*//card*/
+  .fifth-section {
+    height: 150vh;
+    padding: 20px;
+  }
+  .section-header {
+    padding-left: 90px;
+  }
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 32px;
+  }
+  .card {
+    max-width: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+  }
+  .card-image {
+    max-width: 100%;
+    width: 100%;
+    height: 432px;
+  }
+  /*card//*/
+  .side-cercle-div {
+    left: 50px;
+  }
+  .sixth-section::after {
+    top: 115px;
+    left: 70px;
+  }
+  .seventh-section {
+    height: 70vh;
+  }
+  .seventh-section ul {
+    align-self: baseline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 250px;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4 {
+    padding: 20px;
+  }
+  .seventh-section h1 {
+    margin-left: -40px;
+  }
+  .tenth-section-text {
+    padding-right: 50px;
+  }
+  .tenth-section-text p {
+    font-size: 1.125rem;
+  }
+  .tenth-section-text h1 {
+    font-size: 3.5rem;
+  }
+  .img-section-side-cercle {
+    position: absolute;
+    top: -50px;
+    left: 79px;
+    border-radius: 0 0 520px 0;
+    width: 364px;
+    height: 364px;
+  }
+  .img-section-side-cercle img {
+    width: 100%;
+    height: 100%;
+  }
+  .img-section-side-cercle::after {
+    width: 100%;
+    height: 100%;
+  }
+  .right-footer {
+    padding-right: 20px;
+  }
+  .left-footer {
+    padding-left: 60px;
+  }
+  .footer-footer {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1050px) {
+  .nav-in ul {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .third-section-text {
+    padding: 80px;
+  }
+  .Naptec-brands {
+    padding: 0;
+    margin: 0;
+  }
+  .brand img {
+    width: 90%;
+    height: 90%;
+  }
+  /*//card*/
+  .fifth-section {
+    height: 150vh;
+    padding: 20px;
+  }
+  .section-header {
+    padding-left: 70px;
+  }
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 32px;
+  }
+  .card {
+    max-width: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+  }
+  .card-image {
+    max-width: 100%;
+    width: 100%;
+    height: 432px;
+  }
+  /*card//*/
+  .side-cercle-div {
+    left: 50px;
+  }
+  .sixth-section::after {
+    top: 115px;
+    left: 70px;
+  }
+  .seventh-section {
+    height: 70vh;
+  }
+  .seventh-section ul {
+    align-self: baseline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 250px;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4 {
+    padding: 20px;
+  }
+  .seventh-section h1 {
+    margin-left: -40px;
+  }
+  .tenth-section-text {
+    padding-right: 30px;
+  }
+  .tenth-section-text p {
+    font-size: 1.125rem;
+  }
+  .tenth-section-text h1 {
+    font-size: 3.5rem;
+  }
+  .img-section-side-cercle {
+    position: absolute;
+    top: -50px;
+    left: 79px;
+    border-radius: 0 0 520px 0;
+    width: 364px;
+    height: 364px;
+  }
+  .img-section-side-cercle img {
+    width: 100%;
+    height: 100%;
+  }
+  .img-section-side-cercle::after {
+    width: 100%;
+    height: 100%;
+  }
+  .right-footer {
+    padding-right: 20px;
+  }
+  .left-footer {
+    padding-left: 60px;
+  }
+  .footer-footer {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 989px) {
+  section {
+    width: 100%;
+  }
+  /*responsive header*/
+  header {
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .responsivity {
+    display: block;
+  }
+  .responsivity button {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+  }
+  .responsivity button img {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  .logo {
+    align-self: center;
+  }
+  .side-bare-div {
+    position: fixed;
+    top: 84px;
+    left: 0;
+    background-color: #073b43;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 70px;
+    animation: start 0.5s ease-in-out forwards;
+    z-index: 9999;
+    border-top: 2px solid #ffffff;
+  }
+  @keyframes start {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 98%;
+    }
+  }
+  @keyframes end {
+    from {
+      width: 98%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+  .side-bare-div img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    align-self: center;
+  }
+  .close-btn {
+    position: absolute;
+    left: 95%;
+    top: 1%;
+    background: none;
+    border: none;
+  }
+  .close-btn svg {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+  }
+  .nav-out ul {
+    gap: 0px;
+  }
+
+  .nav-in ul {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+
+  /*second section*/
+  .second-section {
+    height: 20vh;
+    background-color: #ded1b3;
+  }
+  .second-section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+  }
+  .second-section ul li {
+    justify-content: flex-start;
+  }
+  /*third section*/
+  .third-section {
+    height: 120vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image-Div {
+    width: 100%;
+    height: 55%;
+  }
+  .third-section-text {
+    width: 100%;
+    height: 45%;
+    background-color: #073b43;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 44px;
+    color: #ffffff;
+    padding: 60px;
+  }
+  /*animation brand*/
+  .fourth-section {
+    height: 60vh;
+  }
+  .fourth-section h1 {
+    position: relative;
+    font-size: 3.25rem;
+    font-weight: 500;
+    line-height: 3.125;
+    color: #073b43;
+    animation: none;
+    z-index: 1;
+  }
+  .Naptec-brands {
+    position: relative;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .brand {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 170px;
+    place-self: anchor-center;
+  }
+  .brand img {
+    object-fit: contain;
+    transition: 0s;
+  }
+
+  .brand-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0s;
+    transform: none;
+  }
+  .brand-text p {
+    display: none;
+  }
+  .brand-text a {
+    color: #073b43;
+    text-decoration: underline;
+    display: none;
+  }
+  .brand:hover img {
+    transform: none;
+  }
+  .brand:hover .brand-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+    text-align: center;
+    color: #10292d;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+  @keyframes fadeIn {
+    from {
+      transform: translateY(-40px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(-60px);
+      opacity: 1;
+    }
+  }
+  /*List industries*/
+  .seventh-section {
+    height: 70vh;
+  }
+  .seventh-section ul {
+    align-self: baseline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 250px;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4 {
+    padding: 20px;
+  }
+  .seventh-section h1 {
+    margin-left: -40px;
+  }
+  /*tenth section*/
+  .tenth-section {
+    height: 90vh;
+  }
+  .img-section-side-cercle {
+    position: absolute;
+    top: -53px;
+    left: 24px;
+    border-radius: 0;
+    width: 95%;
+    height: 40%;
+  }
+  .img-section-side-cercle::after {
+    position: absolute;
+    content: "";
+    width: 102%;
+    height: 100%;
+    border: 1px solid white;
+    display: block;
+    top: 10px;
+    left: -12px;
+    z-index: 0;
+    border-radius: 0;
+  }
+  .img-section-side-cercle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 0;
+    object-fit: cover;
+  }
+  /*footer*/
+  footer {
+    height: 100vh;
+  }
+  .footer-container-flex {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .left-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 0;
+    padding-left: 0;
+    padding: 50px;
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 150px;
+  }
+  .right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-right: 0;
+  }
+  .list-right-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    padding: 34px;
+  }
+  .get-email {
+    padding-left: 50px;
+  }
+  .footer-footer {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 894px) and (max-width: 990px) {
+  .third-section-text {
+    padding: 60px;
+  }
+  .Naptec-brands {
+    margin-left: 10%;
+    padding-bottom: 100px;
+    column-gap: 400px;
+  }
+  /*//card*/
+  .fifth-section {
+    height: 150vh;
+    padding: 20px;
+  }
+  .section-header {
+    padding-left: 70px;
+  }
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 32px;
+  }
+  .card {
+    max-width: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+  }
+  .card-image {
+    max-width: 100%;
+    width: 100%;
+    height: 432px;
+  }
+  /*card//*/
+  .side-cercle-div {
+    left: 50px;
+  }
+  .sixth-section::after {
+    top: 110px;
+    left: 70px;
+  }
+  .seventh-section ul {
+    column-gap: 200px;
+  }
+  .tenth-section {
+    justify-content: flex-start;
+  }
+  .tenth-section-text {
+    padding-right: 0;
+    padding-left: 50px;
+    padding-top: 180px;
+  }
+  .tenth-section-text p {
+    font-size: 1.35rem;
+  }
+  .img-section-side-cercle {
+    border-radius: 0 0 0 0;
+  }
+}
+@media screen and (max-width: 894px) {
+  .third-section-text {
+    padding: 20px;
+  }
+  .Naptec-brands {
+    margin-left: 0;
+    padding-bottom: 15%;
+    gap: 58px;
+  }
+  .brand {
+    place-self: anchor-center;
+  }
+  /*//card*/
+  .fifth-section {
+    height: 150vh;
+    padding: 20px;
+  }
+  .section-header {
+    padding-left: 48px;
+  }
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 32px;
+  }
+  .card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+  }
+  .card-image {
+    max-width: 100%;
+    width: 100%;
+    height: 432px;
+  }
+  /*cercle div*/
+  .side-cercle-div {
+    max-width: 500px;
+    max-height: 425px;
+    left: 50px;
+    padding: 60px;
+  }
+  .side-cercle-div h1 {
+    font-weight: 500;
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+  }
+  .side-cercle-div p {
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  .sixth-section::after {
+    width: 500px;
+    height: 410px;
+    top: 122px;
+    left: 61px;
+    padding: 60px;
+  }
+  .seventh-section h1 {
+    font-size: 3.25rem;
+  }
+  .seventh-section ul {
+    margin-left: -40px;
+    column-gap: 200px;
+  }
+  .img-section-side-cercle {
+    position: absolute;
+    top: -53px;
+    left: 24px;
+    border-radius: 0;
+    width: 95%;
+    height: 40%;
+  }
+  .tenth-section {
+    height: 90vh;
+    justify-content: flex-start;
+  }
+  .tenth-section-text {
+    padding-right: 0;
+    padding-left: 50px;
+    padding-top: 180px;
+  }
+}
+@media screen and (max-width: 795px) {
+  .section-header-title h1 {
+    font-size: 3.25rem;
+  }
+  .card {
+    width: 300px;
+  }
+  .section-header {
+    padding-left: 70px;
+  }
+}
+@media screen and (max-width: 691px) {
+  .third-section-text {
+    padding: 0px;
+    gap: 0;
+  }
+  .third-section-text h1 {
+    font-size: 3.5rem;
+  }
+  .third-section-text p {
+    font-size: 1.125rem;
+    padding: 20px;
+  }
+  .section-header {
+    padding-left: 44px;
+  }
+  .section-header-title h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .section-header-title p {
+    font-size: 1.125rem;
+  }
+  .card {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 651px) {
+  .card {
+    width: 275px;
+  }
+  .seventh-section ul {
+    margin-left: -40px;
+    column-gap: 160px;
+  }
+}
+@media screen and (max-width: 641px) {
+  .card {
+    width: 250px;
+  }
+  .seventh-section ul {
+    margin-left: -40px;
+    column-gap: 160px;
+  }
+}
+@media screen and (max-width: 623px) {
+  .card {
+    width: 240px;
+  }
+  .seventh-section ul {
+    margin-left: -40px;
+    column-gap: 130px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-box {
+    display: none;
+  }
+  .home-text {
+    margin-left: 60px;
+  }
+  .home-text h1 {
+    font-size: 4.75rem;
+    line-height: 4.75rem;
+  }
+  .third-section-text {
+    padding: 25px;
+    gap: 0;
+  }
+  .section-header {
+    padding-left: 16px;
+  }
+  .section-cards {
+    padding-left: 0;
+    gap: 16px;
+  }
+  .section-header-btn {
+    margin-right: -57px;
+  }
+  .section-cards {
+    gap: 16px;
+  }
+  .card {
+    width: 250px;
+  }
+  .seventh-section ul {
+    margin-left: -40px;
+    column-gap: 100px;
+  }
+  .img-section-side-cercle {
+    left: 20px;
+  }
+  .img-section-side-cercle::after {
+    width: 103%;
+    left: -9px;
+  }
+  .nineth-section .elegance {
+    margin-right: 32%;
+    margin-bottom: 30px;
+  }
+  .tenth-section-text {
+    padding-left: 30px;
+  }
+  .get-email form {
+    flex-direction: column;
+  }
+  .get-email form input {
+    width: 80%;
+  }
+  .get-email form button {
+    width: 80%;
+  }
+  .get-email {
+    padding-left: 50px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 563px) {
+  .card {
+    width: 200px;
+  }
+  .side-cercle-div {
+    max-width: 400px;
+    max-height: 350px;
+    left: 50px;
+    padding: 24px;
+  }
+  .sixth-section::after {
+    width: 400px;
+    height: 350px;
+  }
+  .side-cercle-div h1 {
+    font-size: 2rem;
+  }
+  .side-cercle-div p {
+    font-size: 1rem;
+  }
+  .seventh-section h1 {
+    font-size: 2.25rem;
+  }
+  .seventh-section ul li {
+    font-size: 1.125rem;
+  }
+  .tenth-section-text {
+    gap: 10px;
+  }
+  .tenth-section-text p br {
+    display: none;
+  }
+  .tenth-section-text h1 {
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+  }
+  .img-section-side-cercle::after {
+    width: 103%;
+    left: -7px;
+  }
+  .img-section-side-cercle {
+    left: 10px;
+  }
+  .get-email {
+    padding-left: 0;
+    margin-left: 30px;
+  }
+  .get-email form input {
+    width: 90%;
+  }
+  .get-email form button {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 481px) {
+  .third-section-text {
+    padding: 5px;
+    gap: 0;
+  }
+  .third-section-text h1 {
+    font-size: 2.5rem;
+  }
+  .third-section-text p {
+    font-size: 1.1rem;
+    padding: 20px;
+  }
+  .brand img {
+    width: 75%;
+    height: 80%;
+  }
+  .fifth-section {
+    height: 160vh;
+    padding: 20px;
+  }
+  .card {
+    width: 200px;
+  }
+  .seventh-section ul {
+    margin-left: -60px;
+    column-gap: 100px;
+  }
+  .footer-footer h6 {
+    padding-top: 0;
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 461px) {
+  .home-text h1 {
+    font-size: 4rem;
+    line-height: 3.75rem;
+  }
+  .second-section ul li h3 {
+    font-size: 1rem;
+    line-height: 1rem;
+    white-space: nowrap;
+  }
+  .third-section-text {
+    padding: 0;
+    gap: 0;
+  }
+  .Naptec-brands {
+    margin-left: 8%;
+    padding-bottom: 14%;
+    gap: 40px;
+  }
+  .card {
+    width: 180px;
+  }
+  .section-header-title h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .side-cercle-div {
+    left: 15px;
+  }
+  .sixth-section::after {
+    left: 30px;
+  }
+  .seventh-section ul {
+    margin-left: -60px;
+    column-gap: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .second-section ul {
+    padding: 10px;
+  }
+  .third-section-text p {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  .fifth-section {
+    height: 280vh;
+    padding: 0;
+  }
+  .card {
+    width: 90%;
+  }
+}
+/*text*/
+@media screen and (max-width: 450px) {
+  .third-section-text p {
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+  .section-header-title h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 10px;
+  }
+  .section-header-title p {
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+  .sixth-section::after {
+    left: 25px;
+  }
+  .tenth-section-text h1 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .tenth-section-text p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+  .tenth-section-text a {
+    max-width: 215px;
+  }
+  .list-right-footer ul {
+    padding: 26px;
+  }
+  .left-footer {
+    padding: 40px;
+  }
+}
+/*phone*/
+@media screen and (max-width: 430px) {
+  .home-text h1 {
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+  }
+  .home-text p {
+    font-size: 1.25rem;
+  }
+  .side-cercle-div {
+    max-width: 90%;
+    max-height: 400px;
+    left: 16px;
+    padding: 20px;
+  }
+  .sixth-section::after {
+    width: 90%;
+    height: 360px;
+  }
+  .side-cercle-div p {
+    font-size: large;
+  }
+  .side-cercle-div h1 {
+    font-size: 1.5rem;
+  }
+  .seventh-section h1 {
+    font-size: 2rem;
+  }
+  .seventh-section ul {
+    margin-left: -60px;
+    column-gap: 38px;
+  }
+  .img-section-side-cercle img {
+    height: 95%;
+  }
+  .list-right-footer ul {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .second-section ul {
+    padding: 0;
+  }
+  .second-section ul li {
+    gap: 3px;
+  }
+  .third-section-text {
+    height: 50%;
+  }
+  .Naptec-brands {
+    margin-left: 1%;
+  }
+  .section-header-title h1 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    padding: 10px;
+  }
+  .sixth-section::after {
+    width: 90%;
+    height: 395px;
+  }
+  .side-cercle-div h1 {
+    font-size: 1.5rem;
+    padding: 10px 0 0 0;
+  }
+  .seventh-section ul {
+    margin-left: -60px;
+    column-gap: 0;
+  }
+  .seventh-section h1 {
+    font-size: 2rem;
+    white-space: nowrap;
+    margin-left: -60px;
+  }
+  .tenth-section-text {
+    padding-left: 10px;
+  }
+  .tenth-section-text h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .tenth-section-text p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+  }
+  .img-section-side-cercle::after {
+    left: -5px;
+  }
+  footer {
+    height: 120vh;
+  }
+  .left-footer {
+    padding: 120px 10px 0 13px;
+  }
+  .list-right-footer ul {
+    padding: 0px;
+  }
+}
