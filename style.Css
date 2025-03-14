@@ -96,7 +96,7 @@ nav ul {
 /*FIRST SECTION*/
 .first-section {
   position: relative;
-  height: 80vh;
+  min-height: 80vh;
 }
 .first-section img {
   position: absolute;
@@ -151,7 +151,7 @@ nav ul {
 }
 /*SECOND SECTION*/
 .second-section {
-  height: 15vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,7 +184,7 @@ nav ul {
 }
 /*THIRD SECTION*/
 .third-section {
-  height: 78.5vh;
+  min-height: 78.5vh;
   display: flex;
   flex-direction: row;
 }
@@ -225,7 +225,7 @@ nav ul {
 }
 /*FOURTH SECTION*/
 .fourth-section {
-  height: 60vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -311,7 +311,7 @@ nav ul {
 
 /*FIFTH SECTION*/
 .fifth-section {
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -410,7 +410,7 @@ nav ul {
 /*SIXTH SECTION*/
 .sixth-section {
   position: relative;
-  height: 80vh;
+  min-height: 80vh;
 }
 .sixth-section img {
   position: relative;
@@ -476,7 +476,7 @@ nav ul {
 }
 /*SEVENTH SECTION*/
 .seventh-section {
-  height: 50vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -539,7 +539,7 @@ nav ul {
 
 /*NINETH SECTION*/
 .nineth-section {
-  height: 20vh;
+  min-height: 20vh;
   background-color: #073b43;
   display: flex;
   flex-direction: row;
@@ -554,7 +554,7 @@ nav ul {
 .tenth-section {
   position: relative;
   background-color: #ded1b3;
-  height: 60vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -621,7 +621,7 @@ nav ul {
 }
 /*FOOTER*/
 footer {
-  height: 70vh;
+  min-height: 70vh;
   background-color: #073b43;
   display: flex;
   flex-direction: column;

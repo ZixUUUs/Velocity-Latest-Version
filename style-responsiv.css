@@ -693,15 +693,13 @@
     padding: 60px;
   }
   .Naptec-brands {
-    .Naptec-brands {
-      margin-left: 6%;
-      padding-bottom: 100px;
-      column-gap: 152px;
-    }
+    margin-left: 6%;
+    padding-bottom: 100px;
+    column-gap: 152px;
   }
   /*//card*/
   .fifth-section {
-    height: 150vh;
+    min-height: 150vh;
     padding: 20px;
   }
   .section-header {
@@ -1028,7 +1026,7 @@
 }
 @media screen and (max-width: 481px) {
   .first-section {
-    height: 100vh;
+    min-height: 100vh;
   }
   .home-text {
     margin-left: 42px;
@@ -1295,7 +1293,7 @@
 @media screen and (max-width: 386px) {
   .first-section {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
   }
   .third-section-text p {
     font-size: 1rem;
@@ -1316,7 +1314,7 @@
     font-size: 0.7rem;
   }
   footer {
-    height: 100vh;
+    min-height: 100vh;
   }
   .left-footer {
     padding: 60px 10px 0 13px;
@@ -1388,7 +1386,7 @@
   .side-cercle-div p br {
     display: none;
   }
-  seventh-section ul {
+  .seventh-section ul {
     margin-left: -78px;
     column-gap: 0;
   }
