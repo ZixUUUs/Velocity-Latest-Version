@@ -474,7 +474,9 @@
   .nav-out ul {
     gap: 0px;
   }
-
+  .nav-in {
+    display: none;
+  }
   .nav-in ul {
     flex-direction: column;
     justify-content: space-between;
@@ -691,9 +693,11 @@
     padding: 60px;
   }
   .Naptec-brands {
-    margin-left: 10%;
-    padding-bottom: 100px;
-    column-gap: 400px;
+    .Naptec-brands {
+      margin-left: 6%;
+      padding-bottom: 100px;
+      column-gap: 152px;
+    }
   }
   /*//card*/
   .fifth-section {
@@ -1023,6 +1027,23 @@
   }
 }
 @media screen and (max-width: 481px) {
+  .first-section {
+    height: 100vh;
+  }
+  .home-text {
+    margin-left: 42px;
+  }
+  .home-text h1 {
+    font-size: 4rem;
+    line-height: 4.75rem;
+  }
+  .home-text p {
+    white-space: nowrap;
+  }
+  .second-section ul li h3 {
+    font-size: 1.125rem;
+    white-space: nowrap;
+  }
   .third-section-text {
     padding: 5px;
     gap: 0;
@@ -1182,6 +1203,16 @@
   .list-right-footer ul {
     padding: 10px;
   }
+  .get-email h2 {
+    font-size: 1.5rem;
+  }
+  .footer-footer {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer-footer h6 {
+    align-self: self-start;
+  }
 }
 @media screen and (max-width: 400px) {
   .second-section ul {
@@ -1190,12 +1221,27 @@
   .second-section ul li {
     gap: 3px;
   }
+  .second-section ul li h3 {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    line-height: 1rem;
+  }
   .third-section-text {
     height: 50%;
   }
   .Naptec-brands {
     margin-left: 1%;
   }
+  .section-header-title p {
+    font-size: 1rem;
+    padding-left: 7px;
+    white-space: nowrap;
+  }
+  .section-header-btn {
+    max-width: 150px;
+    padding: 9px;
+  }
+
   .section-header-title h1 {
     font-size: 1.75rem;
     line-height: 2rem;
@@ -1203,7 +1249,7 @@
   }
   .sixth-section::after {
     width: 90%;
-    height: 395px;
+    height: 390px;
   }
   .side-cercle-div h1 {
     font-size: 1.5rem;
@@ -1226,9 +1272,12 @@
     line-height: 3rem;
   }
   .tenth-section-text p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1.75rem;
+  }
+  .tenth-section-text a {
+    max-width: 200px;
   }
   .img-section-side-cercle::after {
     left: -5px;
@@ -1241,5 +1290,113 @@
   }
   .list-right-footer ul {
     padding: 0px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .first-section {
+    position: relative;
+    height: 100vh;
+  }
+  .third-section-text p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .Naptec-brands {
+    margin-left: 10%;
+  }
+  .section-header {
+    position: relative;
+    padding-left: 0;
+  }
+  .section-header-btn {
+    position: absolute;
+    left: 66%;
+  }
+  .section-header-btn a {
+    font-size: 0.7rem;
+  }
+  footer {
+    height: 100vh;
+  }
+  .left-footer {
+    padding: 60px 10px 0 13px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .home-text h1 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+  .home-text p {
+    font-size: 1.25rem;
+    white-space: nowrap;
+  }
+  .third-section-text .elegance {
+    align-self: flex-end;
+    padding: 5px;
+  }
+  .fourth-section h1 {
+    font-size: 2.25rem;
+  }
+  .side-cercle-div {
+    gap: inherit;
+  }
+  .sixth-section::after {
+    width: 90%;
+    height: 340px;
+  }
+  .side-cercle-div p {
+    font-size: 1rem;
+  }
+  .seventh-section ul li {
+    font-size: 1rem;
+  }
+  .contact h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 332px) {
+  header {
+    padding: 0;
+  }
+  .home-text {
+    margin-left: 50px;
+  }
+  .Naptec-brands {
+    margin-left: 10%;
+  }
+  .section-header-title h1 {
+    font-size: xx-large;
+    line-height: 2rem;
+    padding: 10px;
+  }
+  .sixth-section::after {
+    width: 90%;
+    height: 300px;
+  }
+  .section-header-btn {
+    left: 60%;
+  }
+  .side-cercle-div a {
+    max-width: 201px;
+    max-height: 43px;
+    padding: 12px;
+  }
+  .side-cercle-div p {
+    font-size: 0.9rem;
+  }
+  .side-cercle-div p br {
+    display: none;
+  }
+  seventh-section ul {
+    margin-left: -78px;
+    column-gap: 0;
+  }
+  .get-email {
+    padding-left: 0;
+    margin-left: 15px;
+  }
+  .contact h3 {
+    font-size: 0.9rem;
   }
 }
