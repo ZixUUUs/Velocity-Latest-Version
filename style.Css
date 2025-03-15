@@ -39,6 +39,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   background-color: #073b43;
+  padding: 40px;
   height: 84px;
 }
 .responsivity {
@@ -533,7 +534,7 @@ nav ul {
 
 /*NINETH SECTION*/
 .nineth-section {
-  padding: 30px;
+  padding: 60px;
   background-color: #073b43;
   display: flex;
   flex-direction: row;

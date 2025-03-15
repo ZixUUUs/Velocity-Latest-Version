@@ -1244,8 +1244,8 @@
     padding: 10px;
   }
   .fifth-section {
-    height: 280vh;
-    padding: 0;
+    height: 100%;
+    padding: 10px;
   }
   .card {
     width: 90%;
