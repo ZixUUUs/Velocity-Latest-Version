@@ -4,7 +4,17 @@
     top: 120px;
   }
 }
+@media (max-width: 1600px) {
+  section {
+    width: 100%;
+    margin: 0;
+  }
+}
 @media screen and (min-width: 1500px) and (max-width: 1600px) {
+  section {
+    width: 100%;
+    margin: 0;
+  }
   .sixth-section::after {
     top: 110px;
   }
@@ -12,6 +22,9 @@
     margin-left: 0%;
     padding-bottom: 50px;
     gap: 80px;
+  }
+  .tenth-section-text {
+    padding-right: 150px;
   }
 }
 
@@ -24,12 +37,18 @@
   .sixth-section::after {
     top: 110px;
   }
+  .tenth-section-text {
+    padding-right: 150px;
+  }
 }
 @media screen and (max-width: 1440px) {
   section {
     width: 100%;
     max-width: 100%;
     margin: 0;
+  }
+  .tenth-section-text {
+    padding-right: 150px;
   }
 }
 
@@ -51,7 +70,7 @@
     column-gap: 165px;
   }
   .tenth-section-text {
-    padding: 100px;
+    padding: 0;
   }
   .left-footer {
     padding-left: 100px;
@@ -91,7 +110,7 @@
     column-gap: 145px;
   }
   .tenth-section-text {
-    padding-right: 100px;
+    padding: 0;
   }
   .right-footer {
     padding-right: 20px;
@@ -231,6 +250,7 @@
   /*card//*/
   .side-cercle-div {
     left: 50px;
+    padding: 70px;
   }
   .sixth-section::after {
     top: 115px;
@@ -338,6 +358,7 @@
   /*card//*/
   .side-cercle-div {
     left: 50px;
+    padding: 60px;
   }
   .sixth-section::after {
     top: 115px;
@@ -461,7 +482,7 @@
   }
   .close-btn {
     position: absolute;
-    left: 95%;
+    left: 88%;
     top: 1%;
     background: none;
     border: none;
@@ -486,7 +507,6 @@
 
   /*second section*/
   .second-section {
-    height: 20vh;
     background-color: #ded1b3;
   }
   .second-section ul {
@@ -594,6 +614,24 @@
       opacity: 1;
     }
   }
+  /*side-cercle*/
+  .sixth-section::after {
+    width: 620px;
+    height: 462px;
+  }
+  .side-cercle-div {
+    max-width: 620px;
+    max-height: 460px;
+    padding: 50px;
+  }
+  /**/
+  .eighth-section::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 10px;
+    border-bottom: 1px solid #ffffff;
+  }
   /*List industries*/
   .seventh-section {
     height: 70vh;
@@ -645,9 +683,7 @@
     object-fit: cover;
   }
   /*footer*/
-  footer {
-    height: 100vh;
-  }
+
   .footer-container-flex {
     display: flex;
     flex-direction: column-reverse;
@@ -766,7 +802,6 @@
   }
   /*//card*/
   .fifth-section {
-    height: 150vh;
     padding: 20px;
   }
   .section-header {
@@ -814,7 +849,7 @@
   .sixth-section::after {
     width: 500px;
     height: 410px;
-    top: 122px;
+    top: 100px;
     left: 61px;
     padding: 60px;
   }
@@ -834,7 +869,6 @@
     height: 40%;
   }
   .tenth-section {
-    height: 90vh;
     justify-content: flex-start;
   }
   .tenth-section-text {
@@ -852,6 +886,38 @@
   }
   .section-header {
     padding-left: 70px;
+  }
+  .side-cercle-div {
+    max-width: 500px;
+    max-height: 425px;
+    left: 50px;
+    padding: 50px;
+  }
+  .sixth-section::after {
+    width: 500px;
+    height: 392px;
+    top: 90px;
+    left: 61px;
+    padding: 60px;
+  }
+}
+@media screen and (max-width: 752px) {
+  .side-cercle-div {
+    max-width: 500px;
+    max-height: 425px;
+    top: 11%;
+    left: 50px;
+    padding: 50px;
+    margin-bottom: 10px;
+  }
+
+  .sixth-section::after {
+    width: 500px;
+    height: 392px;
+    top: 40px;
+    left: 61px;
+    padding: 60px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 691px) {
@@ -878,6 +944,37 @@
   }
   .card {
     width: 280px;
+  }
+  .side-cercle-div {
+    max-width: 474px;
+    max-height: 355px;
+    top: 11%;
+    left: 50px;
+    padding: 50px;
+    margin-bottom: 10px;
+  }
+  .sixth-section::after {
+    width: 476px;
+    height: 346px;
+    top: 40px;
+    left: 61px;
+    padding: 60px;
+    margin-bottom: 10px;
+  }
+  .tenth-section {
+    padding: 0;
+    justify-content: flex-start;
+  }
+  .tenth-section-text {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 131px;
+    gap: 10px;
+  }
+  .tenth-section-text h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4rem;
   }
 }
 @media screen and (max-width: 651px) {
@@ -906,6 +1003,19 @@
     margin-left: -40px;
     column-gap: 130px;
   }
+  .side-cercle-div {
+    max-width: 444px;
+    max-height: 320px;
+    padding: 30px;
+  }
+  .sixth-section::after {
+    width: 446px;
+    height: 320px;
+    top: 32px;
+    left: 61px;
+    padding: 60px;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 600px) {
   .header-box {
@@ -924,14 +1034,13 @@
   }
   .section-header {
     padding-left: 16px;
+    padding-right: 24px;
   }
   .section-cards {
     padding-left: 0;
     gap: 16px;
   }
-  .section-header-btn {
-    margin-right: -57px;
-  }
+
   .section-cards {
     gap: 16px;
   }
@@ -954,7 +1063,7 @@
     margin-bottom: 30px;
   }
   .tenth-section-text {
-    padding-left: 30px;
+    padding-left: 0;
   }
   .get-email form {
     flex-direction: column;
@@ -971,6 +1080,13 @@
   }
 }
 @media screen and (max-width: 563px) {
+  .second-section ul {
+    padding: 0;
+  }
+  .second-section ul li h3 {
+    font-size: 1.125rem;
+    white-space: nowrap;
+  }
   .card {
     width: 200px;
   }
@@ -978,11 +1094,11 @@
     max-width: 400px;
     max-height: 350px;
     left: 50px;
-    padding: 24px;
+    padding: 14px;
   }
   .sixth-section::after {
     width: 400px;
-    height: 350px;
+    height: 310px;
   }
   .side-cercle-div h1 {
     font-size: 2rem;
@@ -1024,13 +1140,16 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 528px) {
+  .third-section-text {
+    padding: 0;
+    gap: 0;
+  }
+  .sixth-section {
+    height: 50vh;
+  }
+}
 @media screen and (max-width: 481px) {
-  .first-section {
-    min-height: 100vh;
-  }
-  .home-text {
-    margin-left: 42px;
-  }
   .home-text h1 {
     font-size: 4rem;
     line-height: 4.75rem;
@@ -1078,6 +1197,12 @@
     font-size: 4rem;
     line-height: 3.75rem;
   }
+  .home-text p {
+    font-size: 1.5rem;
+  }
+  .second-section {
+    padding: 20px;
+  }
   .second-section ul li h3 {
     font-size: 1rem;
     line-height: 1rem;
@@ -1088,7 +1213,7 @@
     gap: 0;
   }
   .Naptec-brands {
-    margin-left: 8%;
+    margin-left: 0;
     padding-bottom: 14%;
     gap: 40px;
   }
@@ -1124,6 +1249,15 @@
   }
   .card {
     width: 90%;
+  }
+  .tenth-section-text {
+    padding-left: 17px;
+    gap: 10px;
+  }
+  .footer-footer {
+    width: 90%;
+    flex-direction: column;
+    gap: 5px;
   }
 }
 /*text*/
@@ -1171,6 +1305,9 @@
   }
   .home-text p {
     font-size: 1.25rem;
+  }
+  .second-section {
+    padding: 10px;
   }
   .side-cercle-div {
     max-width: 90%;
@@ -1245,9 +1382,16 @@
     line-height: 2rem;
     padding: 10px;
   }
+  .side-cercle-div {
+    max-height: 340px;
+    padding: 12px;
+  }
   .sixth-section::after {
     width: 90%;
-    height: 390px;
+    height: 335px;
+  }
+  .side-cercle-div a {
+    padding: 7px;
   }
   .side-cercle-div h1 {
     font-size: 1.5rem;
@@ -1281,10 +1425,10 @@
     left: -5px;
   }
   footer {
-    height: 120vh;
+    padding: 20px 0px 20px 0;
   }
   .left-footer {
-    padding: 120px 10px 0 13px;
+    padding: 30px 10px 40px 13px;
   }
   .list-right-footer ul {
     padding: 0px;
@@ -1293,7 +1437,6 @@
 @media screen and (max-width: 386px) {
   .first-section {
     position: relative;
-    min-height: 100vh;
   }
   .third-section-text p {
     font-size: 1rem;
@@ -1313,11 +1456,14 @@
   .section-header-btn a {
     font-size: 0.7rem;
   }
-  footer {
-    min-height: 100vh;
+  .side-cercle-div {
+    max-height: 340px;
+    padding: 12px;
+    gap: 0;
   }
-  .left-footer {
-    padding: 60px 10px 0 13px;
+  .sixth-section::after {
+    width: 90%;
+    height: 306px;
   }
 }
 @media screen and (max-width: 360px) {
@@ -1341,7 +1487,7 @@
   }
   .sixth-section::after {
     width: 90%;
-    height: 340px;
+    height: 280px;
   }
   .side-cercle-div p {
     font-size: 1rem;
@@ -1353,6 +1499,17 @@
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 340px) {
+  .section-header-title h1 {
+    font-size: x-large;
+    line-height: 2rem;
+    padding: 10px;
+  }
+  .sixth-section::after {
+    width: 90%;
+    height: 310px;
+  }
+}
 @media screen and (max-width: 332px) {
   header {
     padding: 0;
@@ -1360,20 +1517,25 @@
   .home-text {
     margin-left: 50px;
   }
+  .second-section ul li h3 {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    line-height: 1rem;
+  }
   .Naptec-brands {
     margin-left: 10%;
   }
+  .section-header-btn {
+    left: 66%;
+  }
   .section-header-title h1 {
-    font-size: xx-large;
+    font-size: x-large;
     line-height: 2rem;
     padding: 10px;
   }
   .sixth-section::after {
     width: 90%;
-    height: 300px;
-  }
-  .section-header-btn {
-    left: 60%;
+    height: 288px;
   }
   .side-cercle-div a {
     max-width: 201px;
@@ -1396,5 +1558,10 @@
   }
   .contact h3 {
     font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 329px) {
+  .section-header-btn {
+    left: 63%;
   }
 }
