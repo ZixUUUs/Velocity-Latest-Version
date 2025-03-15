@@ -1177,7 +1177,6 @@
     height: 80%;
   }
   .fifth-section {
-    height: 160vh;
     padding: 20px;
   }
   .card {
@@ -1242,6 +1241,11 @@
   .third-section-text p {
     font-size: 1.1rem;
     padding: 10px;
+  }
+  .section-header-btn {
+    max-width: 150px;
+    padding: 9px;
+    margin-left: -20px;
   }
   .fifth-section {
     height: 100%;
@@ -1563,5 +1567,10 @@
 @media screen and (max-width: 329px) {
   .section-header-btn {
     left: 63%;
+  }
+}
+@media screen and (max-height: 800px) {
+  .sixth-section {
+    height: 70vh;
   }
 }
