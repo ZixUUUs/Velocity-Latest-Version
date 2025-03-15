@@ -1,4 +1,9 @@
 /*RESPONSIVITY*/
+@media screen and (max-height: 800px) {
+  .sixth-section {
+    height: 70vh;
+  }
+}
 @media screen and (min-width: 1600px) and (max-width: 1900px) {
   .sixth-section::after {
     top: 120px;
@@ -1567,10 +1572,5 @@
 @media screen and (max-width: 329px) {
   .section-header-btn {
     left: 63%;
-  }
-}
-@media screen and (max-height: 800px) {
-  .sixth-section {
-    height: 70vh;
   }
 }
