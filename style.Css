@@ -533,7 +533,7 @@ nav ul {
 
 /*NINETH SECTION*/
 .nineth-section {
-  min-height: 20vh;
+  padding: 30px;
   background-color: #073b43;
   display: flex;
   flex-direction: row;
