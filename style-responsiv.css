@@ -708,6 +708,9 @@
   }
 }
 @media (max-width: 412px) {
+  .section-section {
+    height: 100vh;
+  }
   .home-text h1 {
     font-size: 4rem;
   }
