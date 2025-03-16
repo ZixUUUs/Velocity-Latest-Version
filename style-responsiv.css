@@ -628,6 +628,9 @@
 }
 
 @media (max-width: 450px) {
+  .logo img {
+    max-width: 140px;
+  }
   .shopping {
     display: none;
   }
@@ -753,6 +756,12 @@
   }
 }
 @media (max-width: 375px) {
+  .home-text h1 {
+    font-size: 3.5rem;
+  }
+  .home-text p {
+    font-size: 1.125rem;
+  }
   .second-section {
     padding: 25px 0px 25px 2px;
   }
