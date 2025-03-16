@@ -26,6 +26,7 @@ li {
   border: 1px solid white;
   text-transform: uppercase;
   white-space: nowrap;
+  font-size: 1.25rem;
 }
 .elegance {
   max-width: 236px;
@@ -88,6 +89,7 @@ nav ul {
   max-width: 156px;
   max-height: 40px;
   padding: 10px 28px 10px 28px;
+  font-size: 0.9rem;
   transition: 0.3s ease;
 }
 .header-box:hover {
@@ -135,13 +137,11 @@ nav ul {
   text-align: center;
 }
 .home-text a {
-  padding-top: 16px;
+  padding: 16px 70.5px;
 }
 .home-box {
   align-self: center;
-  width: 250px;
-  max-width: 250px;
-  height: 56px;
+  max-height: 56px;
   text-align: center;
   transition: 0.3s;
 }
@@ -152,7 +152,7 @@ nav ul {
 }
 /*SECOND SECTION*/
 .second-section {
-  padding: 50px;
+  padding: 36px 104px 36px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,7 +179,7 @@ nav ul {
 .second-section ul li h3 {
   font-size: 1.375rem;
   font-weight: 500;
-  line-height: 1rem;
+  line-height: 1.5rem;
   color: #073b43;
   text-align: start;
 }
@@ -206,7 +206,7 @@ nav ul {
   align-items: center;
   gap: 44px;
   color: #ffffff;
-  padding: 120px;
+  padding: 150px 80px;
 }
 .third-section-text h1 {
   align-self: flex-start;
@@ -259,6 +259,7 @@ nav ul {
   justify-content: center;
   max-width: 252px;
   max-height: 252px;
+  padding: 90px 16px;
   border-radius: 170px;
 }
 .brand img {
@@ -314,13 +315,12 @@ nav ul {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #073b43;
-  padding: 50px;
 }
 .section-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 30px 20px 60px;
+  padding: 120px 50px 60px 80px;
 }
 .section-header-title h1 {
   font-size: 3.75rem;
@@ -335,10 +335,9 @@ nav ul {
   color: #ffffff;
 }
 .section-header-btn {
-  max-width: 199px;
   max-height: 48px;
   text-align: center;
-  padding: 15px;
+  padding: 12px 32px 12px 32px;
   align-self: center;
   transition: 0.3s;
 }
@@ -360,7 +359,7 @@ nav ul {
   flex-direction: row;
   justify-content: space-evenly;
   gap: 20px;
-  padding-left: 32px;
+  padding: 0 0 120px 35px;
 }
 .card-image {
   max-width: 336px;
@@ -406,7 +405,9 @@ nav ul {
 }
 /*SIXTH SECTION*/
 .sixth-section {
+  display: flex;
   position: relative;
+  max-height: 720px;
 }
 .sixth-section img {
   position: relative;
@@ -421,6 +422,9 @@ nav ul {
   justify-content: center;
   align-items: flex-start;
   padding: 95px;
+  padding-top: 0;
+  min-height: 484px;
+  padding-bottom: 0;
   gap: 32px;
   position: absolute;
   max-width: 699px;
@@ -428,23 +432,42 @@ nav ul {
   top: 20%;
   left: 80px;
   width: 699px;
-  border-radius: 0 620px 0 0;
-  background-color: #073b43;
+
   z-index: 999;
 }
 
-.sixth-section::after {
+.side-circle-div-bg {
+  border-radius: 0 620px 0 0;
+  background-color: #073b43;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.side-cercle-div::after {
   position: absolute;
   content: "";
-  max-width: 699px;
-  max-height: 484px;
-  width: 698px;
-  height: 484px;
+  width: 100%;
+  height: 100%;
   border: 1px solid white;
-  top: 200px;
-  left: 100px;
-  z-index: 0;
+  z-index: -1;
+  left: 20px;
   border-radius: 0 620px 0 0;
+  top: -20px;
+}
+
+.side-circle-div-content {
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .side-cercle-div h1 {
@@ -452,8 +475,10 @@ nav ul {
   font-size: 3.75rem;
   line-height: 4.5rem;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .side-cercle-div p {
+  margin-bottom: 32px;
   font-weight: 300;
   font-size: 1.25rem;
   line-height: 32px;
@@ -462,9 +487,9 @@ nav ul {
 .side-cercle-div a {
   max-width: 201px;
   max-height: 56px;
-  padding: 15px;
-  text-align: center;
+  padding: 16px 40px;
   transition: 0.3s;
+  align-self: start;
 }
 .side-cercle-div-btn:hover {
   background-color: #ffffff;
@@ -477,7 +502,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   background-color: #073b43;
-  padding: 92px;
+  padding: 90px;
   gap: 36px;
 }
 .seventh-section h1 {
@@ -542,7 +567,7 @@ nav ul {
   align-items: center;
 }
 .nineth-section .elegance {
-  margin-right: 120px;
+  margin-right: 80px;
   color: #ffffff;
 }
 /*TENTH SECTION*/
@@ -553,7 +578,7 @@ nav ul {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 100px;
+  padding: 16px 0 60px 0;
 }
 .img-section-side-cercle {
   position: absolute;
@@ -582,7 +607,7 @@ nav ul {
   object-fit: cover;
 }
 .tenth-section-text {
-  padding-right: 300px;
+  padding: 72px 243px 0 0;
   color: #022d33;
   display: flex;
   flex-direction: column;
@@ -606,7 +631,7 @@ nav ul {
   border: 1px solid;
   color: #022d33;
   text-align: center;
-  padding: 18px;
+  padding: 16px 40px;
   text-transform: uppercase;
   transition: 0.3s;
 }
@@ -620,12 +645,13 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 80px 0px 50px 0;
+  padding: 60px 0px 50px 0;
 }
 .footer-container-flex {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 10px 0 50px 0;
 }
 .footer-footer {
   display: flex;
